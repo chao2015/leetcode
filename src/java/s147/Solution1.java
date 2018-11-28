@@ -7,7 +7,7 @@ package s147;
  * 一次遍历，用了一个新的链表空间和4个额外节点：cur, newPre, newCur, node
  * 注意：ListNode node = new ListNode(cur.val) 与 ListNode node = cur 大大不同！
  */
-public class Solution {
+public class Solution1 {
     public static class ListNode {
         int val;
         ListNode next;
